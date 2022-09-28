@@ -8,9 +8,9 @@ export default function App() {
         <header className="App-header"></header>
         <h1> Dictionary App</h1>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
-        <footer className="text-center">
+        <footer>
           <small>Coded by Lucie Jáchimová</small>
         </footer>
       </div>
