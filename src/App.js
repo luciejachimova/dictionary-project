@@ -16,10 +16,18 @@ export default function App() {
             <a
               href="https://github.com/luciejachimova/dictionary-project"
               target="_blank"
+              rel="noreferrer"
             >
               open-sourced on GitHub
             </a>
-            or <a href="https://celadon-gnome-541f34.netlify.app/" target="_blank">Netlify</a>
+            or{" "}
+            <a
+              href="https://celadon-gnome-541f34.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Netlify
+            </a>
           </small>
         </footer>
       </div>
