@@ -1,5 +1,6 @@
 body {
   background: #1a3b31;
+  font-family: "Unna", serif;
 }
 .App {
   max-width: 960px;
@@ -10,8 +11,16 @@ body {
   margin: 30px auto;
 }
 .App h1 {
+  font-size: 60px;
   text-align: center;
   color: #faf286;
+  font-family: "Alkalami", serif;
+}
+.App a {
+  color: #faf286;
+}
+.App a:hover {
+  opacity: 0.7;
 }
 .App footer {
   text-align: center;

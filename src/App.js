@@ -11,7 +11,19 @@ export default function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer>
-          <small>Coded by Lucie Jáchimová</small>
+          <small>
+            This project was coded by Lucie Jáchimová and is{" "}
+            <a
+              href="https://github.com/luciejachimova/dictionary-project"
+              target="_blank"
+            >
+              open-sourced on GitHub
+            </a>{" "}
+            or{" "}
+            <a href="https://celadon-gnome-541f34.netlify.app/" target="_blank">
+              Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
