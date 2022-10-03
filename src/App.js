@@ -18,11 +18,8 @@ export default function App() {
               target="_blank"
             >
               open-sourced on GitHub
-            </a>{" "}
-            or{" "}
-            <a href="https://celadon-gnome-541f34.netlify.app/" target="_blank">
-              Netlify
             </a>
+            or <a href="https://celadon-gnome-541f34.netlify.app/" target="_blank">Netlify</a>
           </small>
         </footer>
       </div>
