@@ -1,15 +1,15 @@
 body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+}
+.App {
+  max-width: 960px;
+  margin: 0 auto;
   background: linear-gradient(
     180deg,
     rgba(242, 230, 230, 1) 0%,
     rgba(242, 236, 235, 1) 69%,
     rgba(255, 255, 255, 1) 100%
   );
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
-}
-.App {
-  max-width: 960px;
-  margin: 0 auto;
 }
 
 .App header {
