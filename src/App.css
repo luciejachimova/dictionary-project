@@ -1,6 +1,11 @@
 body {
-  background: #1a3b31;
-  font-family: "Unna", serif;
+  background: linear-gradient(
+    180deg,
+    rgba(242, 230, 230, 1) 0%,
+    rgba(242, 236, 235, 1) 69%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
 }
 .App {
   max-width: 960px;
@@ -13,17 +18,19 @@ body {
 .App h1 {
   font-size: 60px;
   text-align: center;
-  color: #faf286;
-  font-family: "Alkalami", serif;
+  color: #427e7a;
 }
 .App a {
-  color: #faf286;
+  color: #427e7a;
 }
 .App a:hover {
   opacity: 0.7;
 }
 .App footer {
   text-align: center;
-  color: #faf286;
+  color: #427e7a;
   margin: 30px 0;
+}
+.App .main-h1 {
+  margin: 60px 0 60px 0;
 }

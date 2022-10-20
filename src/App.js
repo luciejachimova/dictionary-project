@@ -6,9 +6,9 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header"></header>
-        <h1> Dictionary App</h1>
+        <h1 className="main-h1"> Dictionary App</h1>
         <main>
-          <Dictionary defaultKeyword="sunset" />
+          <Dictionary defaultKeyword="nature" />
         </main>
         <footer>
           <small>
@@ -18,7 +18,7 @@ export default function App() {
               target="_blank"
               rel="noreferrer"
             >
-              open-sourced on GitHub
+              open-sourced on GitHub{" "}
             </a>
             or{" "}
             <a
